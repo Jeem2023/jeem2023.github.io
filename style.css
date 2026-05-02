@@ -1,0 +1,91 @@
+body{
+    font-family: 'Noto Sans Mono', monospace;
+    color: #fff;
+    background-color:#468;
+    background-attachment: fixed;
+    font-size: 40px
+}
+.number{
+    font-family: 'Noto Sans Mono', monospace;
+    font-size: 60px;
+    display: inline
+}
+.upgrade{
+    font-family: 'Noto Sans Mono', monospace;
+    display: inline;
+    border: 2px solid #fff;
+    background-color: #444;
+    border-radius: 10px;
+    font-size: 20px;
+    width: 200px;
+    height: 200px;
+    transition-duration: 0.2s;
+    margin: auto;
+    text-align: center;
+    vertical-align: middle;
+    color: #fff
+}
+.upgrade:hover{
+    border: 2px solid #444;
+    background-color: #fff;
+    width: 240px;
+    height: 240px;
+    font-size: 24px;
+    color: #000
+}
+.upgradenotbuyable{
+    font-family: 'Noto Sans Mono', monospace;
+    display: inline;
+    border: 2px solid #b8f;
+    background-color: #444;
+    border-radius: 10px;
+    font-size: 20px;
+    width: 200px;
+    height: 200px;
+    transition-duration: 0.2s;
+    margin: auto;
+    text-align: center;
+    vertical-align: middle;
+    color: #b8f
+}
+.upgradenotbuyable:hover{
+    border: 2px solid #444;
+    background-color: #b8f;
+    color: #000
+}
+.upgradebuyable{
+    font-family: 'Noto Sans Mono', monospace;
+    display: inline;
+    border: 2px solid #8f8;
+    background-color: #444;
+    border-radius: 10px;
+    font-size: 20px;
+    width: 200px;
+    height: 200px;
+    transition-duration: 0.2s;
+    margin: auto;
+    text-align: center;
+    vertical-align: middle;
+    color: #8f8
+}
+.upgradebuyable:hover{
+    border: 2px solid #444;
+    background-color: #8f8;
+    width: 240px;
+    height: 240px;
+    font-size: 24px;
+    color: #000
+}
+.proggybarstart{
+    width: 120px;
+    height: 30px;
+    background-color: #8f8;
+    display: inline-block;
+    margin-right: -24px
+}
+.proggybarend{
+    width: 120px;
+    height: 30px;
+    background-color: #848;
+    display: inline-block
+}
