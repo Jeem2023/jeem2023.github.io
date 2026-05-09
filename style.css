@@ -1,14 +1,22 @@
 body{
     font-family: 'Noto Sans Mono', monospace;
     color: #fff;
-    background-color:#468;
+    background-color:#000;
     background-attachment: fixed;
     font-size: 40px
+}
+.important{
+    font-family: 'Noto Sans Mono', monospace;
+    font-size: 60px;
+    display: inline;
+    text-shadow: 0 0 20px #fff;
+    color: #f00
 }
 .number{
     font-family: 'Noto Sans Mono', monospace;
     font-size: 60px;
-    display: inline
+    display: inline;
+    text-shadow: 0 0 20px #fff
 }
 .upgrade{
     font-family: 'Noto Sans Mono', monospace;
@@ -36,7 +44,7 @@ body{
 .upgradenotbuyable{
     font-family: 'Noto Sans Mono', monospace;
     display: inline;
-    border: 2px solid #b8f;
+    border: 2px solid #b66;
     background-color: #444;
     border-radius: 10px;
     font-size: 20px;
@@ -46,11 +54,14 @@ body{
     margin: auto;
     text-align: center;
     vertical-align: middle;
-    color: #b8f
+    color: #b66
 }
 .upgradenotbuyable:hover{
     border: 2px solid #444;
-    background-color: #b8f;
+    background-color: #b66;
+    width: 240px;
+    height: 240px;
+    font-size: 24px;
     color: #000
 }
 .upgradebuyable{
@@ -75,6 +86,29 @@ body{
     height: 240px;
     font-size: 24px;
     color: #000
+}
+.upgrademaxed{
+    font-family: 'Noto Sans Mono', monospace;
+    display: inline;
+    border: 2px solid #444;
+    background-color: #8ff;
+    border-radius: 10px;
+    font-size: 20px;
+    width: 200px;
+    height: 200px;
+    transition-duration: 0.2s;
+    margin: auto;
+    text-align: center;
+    vertical-align: middle;
+    color: #444
+}
+.long{
+    width: 400px;
+    height: 200px;
+}
+.long:hover{
+    width: 480px;
+    height: 240px
 }
 .proggybarstart{
     width: 120px;

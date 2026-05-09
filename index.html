@@ -8,17 +8,38 @@
 </head>
 <body>
     <!--<button class="bigupgrade" id="counter" onclick="increment()">1</button><br>-->
-    <div class="number" id="counter">?</button></div> (+<div class="number" id="cps">?</div>/s) <br>
+    <div class="number" id="counter">?</button></div> (+<div class="number" id="tps">?</div>/s) <br>
     Points: <div class="number" id="points">?</div><br>
     <div class="proggybarstart" id="proggybarstart"></div>
     <div class="proggybarend" id="proggybarend"></div>
     <br>
     <button class="upgrade" id="resetcounterandpoints" onclick="resetcounterandpoints()">Reset Counter and Points</button><br>
-    <button class="upgradenotbuyable" id="cpsupgrade" onclick="cpsupgrade()">Loading...</button>
+    <button class="upgradenotbuyable" id="tpsupgrade" onclick="tpsupgrade()">Loading...</button>
     <button class="upgradenotbuyable" id="rewardforallupgrade" onclick="rewardforallupgrade()">Loading...</button>
     <button class="upgradenotbuyable" id="rewardforevenupgrade" onclick="rewardforevenupgrade()">Loading...</button>
     <button class="upgradenotbuyable" id="rewardforoddupgrade" onclick="rewardforoddupgrade()">Loading...</button>
-    <button class="upgradenotbuyable" id="rewardforprimeupgrade" onclick="rewardforprimeupgrade()">Loading...</button>
+    <button class="upgradenotbuyable" id="rewardforprimeupgrade" onclick="rewardforprimeupgrade()">Loading...</button><br>
+    <div id="earlycontainer">
+        Early:
+        <button class="upgradenotbuyable long" id="earlymilestone0" onclick="earlymilestone(0)">
+            Increase base reward for prime numbers by 1 for every upgrade you have<br>Cost: 10M
+        </button>
+        <button class="upgradenotbuyable long" id="earlymilestone1" onclick="earlymilestone(1)">
+            Keep 50% of your points upon resetting<br>Cost: 100M
+        </button>
+        <br>
+    </div>
+    <div id="latecontainer">
+        Late:&nbsp;
+        <button class="upgradenotbuyable long" id="latemilestone0" onclick="latemilestone(0)">
+            Multiply points by +1% for every upgrade you have<br>Cost: 10M
+        </button>
+        <button class="upgradenotbuyable long" id="latemilestone1" onclick="latemilestone(1)">
+            Gain a boost based on how many points you have reset<br>×1 → ×?<br>Cost: 100M
+        </button>
+    </div>
+    <div class="important">No Cloud Saving Yet!!!</div>
+    
 </body>
 <script src="main.js"></script>
 </html>
